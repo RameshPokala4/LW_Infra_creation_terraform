@@ -8,8 +8,6 @@ terraform {
 
     region = "us-east-1"
 
-    profile = "devops"
-
     dynamodb_table = "terraform-locks"
 
     encrypt = true
